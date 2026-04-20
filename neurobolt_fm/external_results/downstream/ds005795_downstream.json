@@ -1,0 +1,194 @@
+{
+  "ddpm": {
+    "head": "ddpm",
+    "dataset": "ds005795",
+    "task": "eeg_fmri_pairing",
+    "chance_level": 0.5,
+    "subject_id": {
+      "acc_real": 0.8037542662116041,
+      "ci_real": [
+        0.7696639679260243,
+        0.8338880453756049
+      ],
+      "n_correct_real": 471,
+      "acc_synth": 0.5085324232081911,
+      "ci_synth": [
+        0.4681320496165067,
+        0.5488216586223031
+      ],
+      "n_correct_synth": 298,
+      "n_test_total": 586,
+      "n_real_train": 2338,
+      "n_synth_total": 2924,
+      "chance": 0.5
+    }
+  },
+  "edm": {
+    "head": "edm",
+    "dataset": "ds005795",
+    "task": "eeg_fmri_pairing",
+    "chance_level": 0.5,
+    "subject_id": {
+      "acc_real": 0.8037542662116041,
+      "ci_real": [
+        0.7696639679260243,
+        0.8338880453756049
+      ],
+      "n_correct_real": 471,
+      "acc_synth": 0.5358361774744027,
+      "ci_synth": [
+        0.4953552412800079,
+        0.5758503333229933
+      ],
+      "n_correct_synth": 314,
+      "n_test_total": 586,
+      "n_real_train": 2338,
+      "n_synth_total": 2924,
+      "chance": 0.5
+    }
+  },
+  "score_sde": {
+    "head": "score_sde",
+    "dataset": "ds005795",
+    "task": "eeg_fmri_pairing",
+    "chance_level": 0.5,
+    "subject_id": {
+      "acc_real": 0.8037542662116041,
+      "ci_real": [
+        0.7696639679260243,
+        0.8338880453756049
+      ],
+      "n_correct_real": 471,
+      "acc_synth": 0.5614334470989761,
+      "ci_synth": [
+        0.5209864394851724,
+        0.6010802598342582
+      ],
+      "n_correct_synth": 329,
+      "n_test_total": 586,
+      "n_real_train": 2338,
+      "n_synth_total": 2924,
+      "chance": 0.5
+    }
+  },
+  "consistency": {
+    "head": "consistency",
+    "dataset": "ds005795",
+    "task": "eeg_fmri_pairing",
+    "chance_level": 0.5,
+    "subject_id": {
+      "acc_real": 0.8037542662116041,
+      "ci_real": [
+        0.7696639679260243,
+        0.8338880453756049
+      ],
+      "n_correct_real": 471,
+      "acc_synth": 0.5085324232081911,
+      "ci_synth": [
+        0.4681320496165067,
+        0.5488216586223031
+      ],
+      "n_correct_synth": 298,
+      "n_test_total": 586,
+      "n_real_train": 2338,
+      "n_synth_total": 2924,
+      "chance": 0.5
+    }
+  },
+  "cvae": {
+    "head": "cvae",
+    "dataset": "ds005795",
+    "task": "eeg_fmri_pairing",
+    "chance_level": 0.5,
+    "subject_id": {
+      "acc_real": 0.8037542662116041,
+      "ci_real": [
+        0.7696639679260243,
+        0.8338880453756049
+      ],
+      "n_correct_real": 471,
+      "acc_synth": 0.5119453924914675,
+      "ci_synth": [
+        0.47152839595655754,
+        0.552206795577776
+      ],
+      "n_correct_synth": 300,
+      "n_test_total": 586,
+      "n_real_train": 2338,
+      "n_synth_total": 2924,
+      "chance": 0.5
+    }
+  },
+  "cgan": {
+    "head": "cgan",
+    "dataset": "ds005795",
+    "task": "eeg_fmri_pairing",
+    "chance_level": 0.5,
+    "subject_id": {
+      "acc_real": 0.8037542662116041,
+      "ci_real": [
+        0.7696639679260243,
+        0.8338880453756049
+      ],
+      "n_correct_real": 471,
+      "acc_synth": 0.5255972696245734,
+      "ci_synth": [
+        0.48513248744261156,
+        0.565728637273818
+      ],
+      "n_correct_synth": 308,
+      "n_test_total": 586,
+      "n_real_train": 2338,
+      "n_synth_total": 2924,
+      "chance": 0.5
+    }
+  },
+  "rectified_flow": {
+    "head": "rectified_flow",
+    "dataset": "ds005795",
+    "task": "eeg_fmri_pairing",
+    "chance_level": 0.5,
+    "subject_id": {
+      "acc_real": 0.8037542662116041,
+      "ci_real": [
+        0.7696639679260243,
+        0.8338880453756049
+      ],
+      "n_correct_real": 471,
+      "acc_synth": 0.5051194539249146,
+      "ci_synth": [
+        0.4647375719397357,
+        0.5454346530035501
+      ],
+      "n_correct_synth": 296,
+      "n_test_total": 586,
+      "n_real_train": 2338,
+      "n_synth_total": 2924,
+      "chance": 0.5
+    }
+  },
+  "cfm": {
+    "head": "cfm",
+    "dataset": "ds005795",
+    "task": "eeg_fmri_pairing",
+    "chance_level": 0.5,
+    "subject_id": {
+      "acc_real": 0.8037542662116041,
+      "ci_real": [
+        0.7696639679260243,
+        0.8338880453756049
+      ],
+      "n_correct_real": 471,
+      "acc_synth": 0.515358361774744,
+      "ci_synth": [
+        0.4749266117389242,
+        0.5555900630909335
+      ],
+      "n_correct_synth": 302,
+      "n_test_total": 586,
+      "n_real_train": 2338,
+      "n_synth_total": 2924,
+      "chance": 0.5
+    }
+  }
+}

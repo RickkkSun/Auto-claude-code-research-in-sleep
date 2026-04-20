@@ -1,0 +1,39 @@
+# ═══ Raw data (not redistributable) ═════════════════════════════
+external_datasets/
+datasets/
+external_processed/
+data/
+noddi_raw/
+sample_data/
+
+# ═══ Large model artifacts ══════════════════════════════════════
+checkpoints/
+checkpoints_*/
+feature_cache/
+code/checkpoints/
+code/wandb_logs/
+BrainOmni/
+
+# ═══ Build / runtime artifacts ══════════════════════════════════
+__pycache__/
+*.py[cod]
+*.log
+logs/
+*.pth
+*.pt
+*.bin
+*.npz
+
+# ═══ Large result blobs (keep tables + JSON summaries) ══════════
+# Keep: external_results/**/*.json and **/*.png
+# Drop: caches and large pkls
+*.pkl
+*.h5
+*.hdf5
+
+# ═══ OS / editor ════════════════════════════════════════════════
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

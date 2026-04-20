@@ -1,0 +1,23 @@
+{
+  "round": 1,
+  "threadId": "019d8596-154d-7161-a359-46d1ea737924",
+  "status": "in_progress",
+  "phase": "cross_dataset_experiments",
+  "phase_description": "Running 10-backbone+DDPM comparison on 4 resting-state external datasets (NeuroCFM = NeuroBOLT+FM)",
+  "last_score": 4,
+  "last_verdict": "4/10 — needs ablations, pooled leakage fix framing, capacity fairness argument, FC-MAE gap",
+  "pending_experiments": [
+    "intra_benchmark_ds003768_ds005795_noddi (bvau50grg -- running)",
+    "preprocess_ds006040 (bqbv5dsaw -- running)",
+    "intra_benchmark_ds006040 (pending after preprocessing)",
+    "neurocfm_external_all4datasets (pending)",
+    "pooled_benchmark_all4datasets (pending)"
+  ],
+  "datasets_ready": {
+    "ds003768": {"n_subjects": 20, "tr": 2.1, "processed": true},
+    "ds005795": {"n_subjects": 34, "tr": 2.0, "processed": true},
+    "noddi": {"n_subjects": 16, "tr": 2.16, "processed": true},
+    "ds006040": {"n_subjects": 28, "tr": 2.0, "processed": "in_progress"}
+  },
+  "timestamp": "2026-04-13T04:15:00"
+}
