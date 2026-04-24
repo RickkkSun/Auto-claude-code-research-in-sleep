@@ -12,11 +12,34 @@ BASE = 'C:/Users/PC/Auto-claude-code-research-in-sleep/BrainCFM'
 sys.path.insert(0, BASE)
 
 import generate_external_tables as _gen
-
-# Capture MAIN_METHODS before _abl import overwrites _gen.METHODS_ORDER
-MAIN_METHODS = list(_gen.METHODS_ORDER)
-
 import generate_ablation_tables as _abl
+
+# _abl import wipes KEY_ALIASES — restore so neurocfm alias lookups work
+_gen.KEY_ALIASES = {
+    'neuroflow_fm_intra':  'neurocfm_intra',
+    'neuroflow_fm_pooled': 'neurocfm_pooled',
+    'neuroflow_intra':     'neurocfm_intra',
+    'neuroflow_pooled':    'neurocfm_pooled',
+    'neurocfm_intra':      'neurocfm_intra',
+    'neurocfm_pooled':     'neurocfm_pooled',
+}
+
+# Hardcoded — immune to _abl overwriting _gen.METHODS_ORDER at import time
+MAIN_METHODS = [
+    ('beira',      'BEIRA'),
+    ('biot',       'BIOT'),
+    ('brainomni',  'BrainOmni'),
+    ('cnn_trans',  'CNN-Trans.'),
+    ('contrawr',   'ContraWR'),
+    ('ffcl',       'FFCL'),
+    ('labram',     'LaBraM'),
+    ('li2024',     'Li et al.'),
+    ('neurobolt',  'NeuroBOLT'),
+    ('reve',       'REVE'),
+    ('sparc',      'SPaRCNet'),
+    ('stt_trans',  'STT-Trans.'),
+    ('neurocfm',   'BrainCFM (Ours)'),
+]
 
 # ── constants mirrored from generate_external_tables.py ─────────────────────
 DATASETS = [
